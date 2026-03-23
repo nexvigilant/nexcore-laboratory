@@ -1,0 +1,16 @@
+
+[package]
+name = "nexcore-laboratory"
+version = "1.0.0"
+edition = "2024"
+license = "LicenseRef-NexVigilant-Proprietary"
+rust-version = "1.85"
+description = "Virtual laboratory for word/concept experiments using Lex Primitiva molecular weight and T1 primitive decomposition"
+
+[dependencies]
+nexcore-lex-primitiva = { version = "0.1.0", path = "../nexcore-lex-primitiva", registry = "nexcore" }
+serde = { version = "1.0.204", features = ["derive"] }
+serde_json = { version = "1.0.120" }
+
+[lints]
+workspace = true
